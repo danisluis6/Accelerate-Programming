@@ -1,16 +1,13 @@
 # [Accelerate-Programming](#accelerate-programming)
-# [Android Gradle](#android-gradle) 
-> ## [build.gradle(Project)](#build.gradle(project))
-> ## [build.gradle(Module)](#build.gradle(module))
+> # [Android Gradle](#android-gradle) 
+>> ## [build.gradle(Project)](#build.gradle(project))
+>> ## [build.gradle(Module)](#build.gradle(module))
 
-
-
-> ## [References](#references)
+> # [References](#references)
 
 
 # Android Gradle
-The build.gradle (Project: MyApplication) file is in the root folder of the project and its configuration settings apply to every module in the project. A module is an isolated piece of the bigger project. In a multi-module project, these modules have their own jobs but work together to form the whole project. Most Android projects only have one module, the app module.
-> [Research about build.gradle(project) and build.gradle(module)](https://www.google.com)
+> [Research about build.gradle(project) and build.gradle(module)](https://github.com/danisluis6/Accelerate-Programming/blob/master/Android%20Gradle.md)
 > # build.gradle(Project)
 
 
