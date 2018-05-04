@@ -1,10 +1,9 @@
 # [Accelerate-Programming](#accelerate-programming)
 > # [Android Gradle](#android-gradle) 
->> ## [Project)](#project)
+>> ## [Project](#project)
 >> ## [Module](#module)
 
 > # [References](#references)
-
 
 # Android Gradle
 > [Research about build.gradle(project) and build.gradle(module)](https://github.com/danisluis6/Accelerate-Programming/blob/master/Android%20Gradle.md)
