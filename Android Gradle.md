@@ -72,5 +72,23 @@ allprojects {
     }
 }
 ```
+- Error : Missing **maven** in Android Studio
+![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/5.png)
+- Fix 3: Add *jcenter()*
+
+```java
+allprojects {
+    repositories {
+        google()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+```
 
 
