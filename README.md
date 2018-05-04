@@ -2,13 +2,9 @@
 > # [Android Gradle](#android-gradle) 
 >> ## [Project](#project)
 >> ## [Module](#module)
+
 > # [Project Structure](#project-structure) 
 >> ## [Structure Folder](#structure-folder)
-
->> ## [Project](#project)
->> ## [Module](#module)
-
-
 
 > # [References](#references)
 
