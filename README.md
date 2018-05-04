@@ -1,5 +1,5 @@
 # [Accelerate-Programming](#accelerate-programming)
-# [Gradle](#gradle) 
+# [Android Gradle](#android-gradle) 
 > ## [Project](#project)
 > ## [App](#app)
 >> ### [Fundamental Android](#fundamental-android)
@@ -8,17 +8,10 @@
 >>>>> ###### [Knowledge surround it](#knowledge-surround-it)
 >>>>> ###### [Practical](#practical)
 
-# [Gradle Android](#accelerate-programming) 
-> ## [Agenda](#agenda)
->> ### [Fundamental Android](#fundamental-android)
->>> #### [Syntax Java Core](#syntax-java-core)
->>>> ##### [If - statement](#if---statement)
->>>>> ###### [Knowledge surround it](#knowledge-surround-it)
->>>>> ###### [Practical](#practical)
 
 > ## [References](#references)
 
-# Gradle
+# Android Gradle
 > # Project
 
 
