@@ -54,3 +54,23 @@ android {
     compileSdkVersion 26
     flavorDimensions "default"
 ```
+
+- Error 2: Add Google Maven reponsitory and sync project
+![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/4.png)
+- Fix 2: 
+```java
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+```
+
+
