@@ -36,7 +36,24 @@ dependencies {
     //  Setup Retrofit and elevant these labraries
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    [Go to definition of method using Retrofit](https://www.google.com)
+    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    
+    // Setup HTTP
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    
+    // Setup Gson
+    compile 'com.google.code.gson:gson:2.7'
+    
+    // Setup Rx
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.+'
+    compile 'io.reactivex:rxjava:1.0.4'
+    compile 'io.reactivex:rxandroid:0.24.0'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    
+    // Dagger 2
+    provided 'com.google.dagger:dagger-compiler:2.1'
+    compile 'com.google.dagger:dagger:2.1'
     
     // Test
     testCompile 'junit:junit:4.12'
