@@ -2,6 +2,13 @@
 > # [Android Gradle](#android-gradle) 
 >> ## [Project](#project)
 >> ## [Module](#module)
+> # [Project Structure](#project-structure) 
+>> ## [Structure Folder](#structure-folder)
+
+>> ## [Project](#project)
+>> ## [Module](#module)
+
+
 
 > # [References](#references)
 
@@ -78,6 +85,17 @@ buildscript {
     compile 'com.jakewharton:butterknife:8.2.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
 ```
+
+# Project Structure
+> # Structure Folder
+
+
+
+
+
+
+
+
 
 # Agenda
 We know about **Markdown** and we can *apply* it for custom file ~~README.md~~. Even do __morething__
