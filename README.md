@@ -84,14 +84,9 @@ buildscript {
 
 # Project Structure
 > # Structure Folder
-
-
-
-
-
-
-
-
+```
+mkdir activities activities/Home activities/Login activities/Splash custom custom/Toolbar custom/NavigationDrawer fragments fragments/categories fragments/feeds interfaces listener localstorage localstorage/database localstorage/database/entities mvp mvp/Logout objects objects/Responses services utilities utilities/GetAPI
+```
 
 # Agenda
 We know about **Markdown** and we can *apply* it for custom file ~~README.md~~. Even do __morething__
