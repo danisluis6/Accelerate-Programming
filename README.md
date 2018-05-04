@@ -8,8 +8,59 @@
 # Android Gradle
 > [Research about build.gradle(project) and build.gradle(module)](https://github.com/danisluis6/Accelerate-Programming/blob/master/Android%20Gradle.md)
 > # Project
+```java
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+```
+> # Module
+>> # 26
+```java
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
+    compile 'com.android.support:appcompat-v7:26.1.0'
 
+    compile 'com.android.support:design:26.1.0'
+
+    compile 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    compile 'com.android.support:cardview-v7:26.1.0'
+
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    
+    // Butterknife Library
+    compile 'com.jakewharton:butterknife:8.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+    
+    //  Setup Retrofit and elevant these labraries
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    [Go to definition of method using Retrofit](https://www.google.com)
+    
+    // Test
+    testCompile 'junit:junit:4.12'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+}
+```
+>> Choose version 3.0:
+```java
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+
+// Butterknife Library
+    compile 'com.jakewharton:butterknife:8.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+```
 
 # Agenda
 We know about **Markdown** and we can *apply* it for custom file ~~README.md~~. Even do __morething__
