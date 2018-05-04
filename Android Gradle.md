@@ -39,6 +39,18 @@ task clean(type: Delete) {
 }
 ```
 ## build.gradle(Module:app)
-  - - Build file of your specific module (where you add your **dependencies, signing configs, build types, flavors, etc**. We should observe here:
+  - Build file of your specific module (where you add your **dependencies, signing configs, build types, flavors, etc**. We should observe here:
   ![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/1.png)
   ![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/2.png)
+  
+  - Create Flavor:
+  ![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/3.png)
+  
+# Issues:
+- Error 1:All flavors must now belong to a named flavor dimension
+- Fix 1: https://stackoverflow.com/questions/44105127/android-studio-3-0-flavor-dimension-issue
+```java
+android {
+    compileSdkVersion 26
+    flavorDimensions "default"
+```
