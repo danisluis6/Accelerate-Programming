@@ -1,18 +1,12 @@
 # [Accelerate-Programming](#accelerate-programming)
 # [Android Gradle](#android-gradle) 
-> ## [Project](#project)
-> ## [App](#app)
->> ### [Fundamental Android](#fundamental-android)
->>> #### [Syntax Java Core](#syntax-java-core)
->>>> ##### [If - statement](#if---statement)
->>>>> ###### [Knowledge surround it](#knowledge-surround-it)
->>>>> ###### [Practical](#practical)
-
+> ## [build.gradle(Project)](#build.gradle(project))
+> ## [build.gradle(Module)](#build.gradle(module))
 
 > ## [References](#references)
 
 # Android Gradle
-> # Project
+> # build.gradle(Project)
 
 
 # Agenda
