@@ -72,7 +72,7 @@ allprojects {
     }
 }
 ```
-- Error : Missing **maven** in Android Studio
+- Error 3 : Missing **maven** in Android Studio
 ![alt text](https://github.com/danisluis6/Accelerate-Programming/blob/master/Gradle/5.png)
 - Fix 3: Add *jcenter()*
 
@@ -90,5 +90,40 @@ allprojects {
     }
 }
 ```
+- Error 4: Error:android-apt plugin is incompatible with the Android Gradle plugin. Please use 'annotationProcessor' configuration
+- Fix 4: We need to notice here
+  - **classpath 'com.android.tools.build:gradle:2.2.3'**
+  - **classpath 'com.android.tools.build:gradle:3.0.1'**
+- So lead Butterknife depends on Android Gradle Version
+#### For version 2
+```java
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+apply plugin: 'com.neenbedankt.android-apt'
 
-
+// Butterknife Library
+apt 'com.jakewharton:butterknife-compiler:8.2.1'
+compile 'com.jakewharton:butterknife:8.2.1'
+```
+#### For version 3
+```java
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+// Butterknife Library
+compile 'com.jakewharton:butterknife:8.2.1'
+annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+```
